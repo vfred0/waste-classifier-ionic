@@ -1,0 +1,7 @@
+{
+  "name": "waste-classifier",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
