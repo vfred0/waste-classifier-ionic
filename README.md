@@ -17,6 +17,9 @@ The following pre-trained models have been used:
 
 ## Usage
 - Clone the repository
+```bash
+git clone https://github.com/vfred0/waste-classifier-ionic.git
+```
 - Install dependencies
 ```bash
 npm install
