@@ -42,6 +42,7 @@ android/app/build/outputs/apk/debug/app-debug.apk
 - [x] Home page
 - [x] Modal for details of category
 
+https://user-images.githubusercontent.com/86375181/218521382-f9676e95-3ef1-466d-ba21-821593491e35.mp4  
+
 ## Working
 - Page of scan and importing models with tensorflow.js
-
