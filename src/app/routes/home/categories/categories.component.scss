@@ -1,0 +1,73 @@
+@use 'sass:math';
+
+@function em($pixels) {
+  @return #{math.div($pixels, 16)}em;
+}
+
+@function rem($pixels) {
+  @return #{math.div($pixels, 16)}rem;
+}
+
+ion-card-title {
+  color: var(--ion-color-medium);
+  text-align: center;
+  font-size: em(18);
+  font-weight: 600;
+}
+
+
+.card {
+  padding: em(12);
+  border-radius: em(12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 160px;
+
+  &__details {
+    height: auto;
+  }
+
+}
+
+.shadow {
+  border: 2.6px solid rgba(13, 11, 11, 0.05);
+  box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+.category-details {
+  &__image-logo {
+    background-color: var(--ion-color-primary-tint);
+    padding: 12px;
+    border: 2.6px solid rgba(13, 11, 11, 0.08);
+    border-radius: 100px;
+  }
+
+  &__card-image {
+    width: em(180);
+    border-radius: 50%;
+    height: 100%;
+  }
+
+  &__title {
+    font-size: em(16.4);
+    font-weight: 600;
+    color: var(--ion-color-medium);
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+}
+
+ion-img {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+
+ion-toolbar {
+  --background: var(--ion-color-light);
+}
