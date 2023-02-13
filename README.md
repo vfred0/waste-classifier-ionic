@@ -38,3 +38,10 @@ cd android
 ```bash 
 android/app/build/outputs/apk/debug/app-debug.apk
 ```
+## Done
+- [x] Home page
+- [x] Modal for details of category
+
+## Working
+- Page of scan and importing models with tensorflow.js
+
