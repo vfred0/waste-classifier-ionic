@@ -1,20 +1,22 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {IonicModule} from '@ionic/angular';
 
-import { IonicModule } from '@ionic/angular';
+import {ScanPageRoutingModule} from './scan-routing.module';
 
-import { ScanPageRoutingModule } from './scan-routing.module';
-
-import { ScanPage } from './scan.page';
+import {ScanPage} from './scan.page';
+import {ComponentsModule} from "../../components/components.module";
+import {WebcamModule} from "ngx-webcam";
 
 @NgModule({
   imports: [
     CommonModule,
-    FormsModule,
     IonicModule,
-    ScanPageRoutingModule
+    ScanPageRoutingModule,
+    ComponentsModule,
+    WebcamModule
   ],
   declarations: [ScanPage]
 })
-export class ScanPageModule {}
+export class ScanPageModule {
+}

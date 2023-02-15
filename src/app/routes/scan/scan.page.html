@@ -1,8 +1,12 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>scan</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-text color="medium"><h3>Escaneo</h3></ion-text>
+  <ion-thumbnail>
+    <ion-img [src]="this.image"></ion-img>
+  </ion-thumbnail>
+  <ion-row class="ion-justify-content-center">
+    <ion-button strong="true" size="large" (click)="getPicture()">
+      <ion-icon slot="start" name="camera-outline"></ion-icon>
+      Predecir categoría
+    </ion-button>
+  </ion-row>
 </ion-content>
